@@ -10,6 +10,7 @@ public class Func_1 {
     }
 
     static void sum(){
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the value of a: ");
@@ -23,6 +24,7 @@ public class Func_1 {
     }
 
     static int sum2(){
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the value of a: ");
