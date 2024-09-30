@@ -1,5 +1,3 @@
-package Functions;
-
 import java.util.Scanner;
 
 public class Func_1 {
