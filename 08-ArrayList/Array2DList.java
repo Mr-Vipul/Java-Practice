@@ -7,7 +7,7 @@ public class Array2DList {
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
         Scanner in = new Scanner(System.in);
-        
+
         for(int i =0; i<3;i++){
             list.add(new ArrayList<>());
         }
@@ -15,7 +15,6 @@ public class Array2DList {
         for(int i = 0; i<3;i++){
             for(int j=0; j<3; j++ ){
                 list.get(i).add(in.nextInt());
-
 
             }
         }
