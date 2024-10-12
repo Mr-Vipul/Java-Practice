@@ -1,4 +1,3 @@
-package Maths;
 
 public class Maths_min {
     public static void main(String[] args) {
